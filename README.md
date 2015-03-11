@@ -23,6 +23,7 @@ glowfi.sh in iOS + Parse for the Big Web
 Get ready for some simple machine learning...
 
 *Training*
+
     var dataQuery = PFQuery(className: "StuffData")
     var responseQuery = PFQuery(className: "StuffData")
     
