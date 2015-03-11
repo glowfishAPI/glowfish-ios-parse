@@ -10,9 +10,10 @@ glowfi.sh in iOS + Parse for the Big Web
     Then you'll need to setup a parse account and install it in your app. I think it's best you just follow these instructions: https://parse.com/apps/quickstart
 
 **Setup**
+    
     Parse.enableLocalDatastore()
     Parse.setApplicationId('<PARSE_ID>', clientKey: '<PARSE_KEY>')
-
+    
     PFGlowfish.setCredentials('<GLOWFISH_SID>', '<GLOWFISH_AUTH_TOKEN>')
     PFGlowfish.findAllResultsWhenUsingParse() // optional, if you want us to grab ALL data from your queries instead of Parse's imposed limits...yeah we can do that.
     
